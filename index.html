@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGuide - Seu Guia de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-plane"></i>
+                <span>TravelGuide</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Página Inicial -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Descubra Destinos Incríveis</h1>
+                <p>Encontre o destino perfeito para sua próxima aventura com base em suas preferências e interesses únicos.</p>
+                <button class="cta-button" onclick="scrollToRecommendations()">Explorar Destinos</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Destino de viagem">
+            </div>
+        </section>
+
+        <!-- Seção de Recomendações -->
+        <section class="recommendations" id="recommendations">
+            <div class="container">
+                <h2>Nossas Recomendações</h2>
+                
+                <!-- Recomendação de Praia -->
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-umbrella-beach"></i> Destinos de Praia</h3>
+                    <div class="image-gallery">
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1506905925346-14b1e3d7e8b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Praia do Caribe">
+                            <div class="image-overlay">
+                                <h4>Caribe</h4>
+                                <p>Águas cristalinas e areias brancas</p>
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Praia do Brasil">
+                            <div class="image-overlay">
+                                <h4>Brasil</h4>
+                                <p>Diversidade de praias paradisíacas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="recommendation-description">
+                        Descubra as praias mais deslumbrantes do mundo. Do Caribe às costas brasileiras, 
+                        oferecemos sugestões personalizadas para todos os tipos de viajantes que buscam 
+                        relaxamento, aventuras aquáticas ou simplesmente admirar paisagens de tirar o fôlego.
+                    </p>
+                </div>
+
+                <!-- Recomendação de Templo -->
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-torii-gate"></i> Destinos Espirituais</h3>
+                    <div class="image-gallery">
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1542640244-a9163541d0a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Templo no Japão">
+                            <div class="image-overlay">
+                                <h4>Japão</h4>
+                                <p>Templos milenares e tradições</p>
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Templo na Tailândia">
+                            <div class="image-overlay">
+                                <h4>Tailândia</h4>
+                                <p>Arquitetura budista impressionante</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="recommendation-description">
+                        Explore templos e locais sagrados ao redor do mundo. Desde os templos budistas 
+                        do Sudeste Asiático até os santuários xintoístas do Japão, cada destino oferece 
+                        uma experiência espiritual única e enriquecedora.
+                    </p>
+                </div>
+
+                <!-- Recomendação por País -->
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-globe-americas"></i> Destinos por País</h3>
+                    <div class="image-gallery">
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="França">
+                            <div class="image-overlay">
+                                <h4>França</h4>
+                                <p>Arte, cultura e gastronomia</p>
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <img src="https://images.unsplash.com/photo-1506905925346-14b1e3d7e8b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Itália">
+                            <div class="image-overlay">
+                                <h4>Itália</h4>
+                                <p>História, arte e paisagens</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="recommendation-description">
+                        Descubra países fascinantes com culturas únicas. Cada nação tem sua própria 
+                        identidade, tradições e atrações que a tornam especial. Deixe-nos guiá-lo 
+                        através das melhores experiências que cada país tem a oferecer.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TravelGuide</h3>
+                    <p>Sua jornada começa aqui</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TravelGuide. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
