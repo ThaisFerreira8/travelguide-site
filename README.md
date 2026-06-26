@@ -84,4 +84,3 @@ Para dúvidas ou sugestões sobre o projeto, entre em contato através do formul
 
 ---
 
-**Desenvolvido com ❤️ para o projeto final de Fundamentos de Programação JavaScript**
