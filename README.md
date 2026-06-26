@@ -2,20 +2,6 @@
 
 Um site moderno e interativo para recomendação de destinos de viagem, desenvolvido com HTML, CSS e JavaScript puro.
 
-## 🚀 Funcionalidades
-
-### ✅ Requisitos Atendidos (20 pontos)
-
-- **URL pública do repositório GitHub** (1 ponto)
-- **Páginas funcionais**: Início, Sobre Nós e Contato (3 pontos)
-- **Barra de navegação** responsiva e interativa (6 pontos)
-- **Introdução na página inicial** com hero section atrativo (1 ponto)
-- **Elementos da página Sobre nós** com estatísticas e valores (2 pontos)
-- **Formulário de e-mail** na página de contato com validação (1 ponto)
-- **Recomendação de praia** com duas imagens e descrições (2 pontos)
-- **Recomendação de templo** com duas imagens e descrições (2 pontos)
-- **Recomendação por país** com duas imagens e descrições (2 pontos)
-
 ## 🎨 Características do Design
 
 - **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
