@@ -79,6 +79,6 @@ https://[seu-usuario].github.io/[nome-do-repositorio]
 3. **Mobile**: Teste menu hambúrguer
 4. **Diferentes resoluções**: Use DevTools do navegador
 
-## 🎯 Pontos do Projeto
+
 
 
