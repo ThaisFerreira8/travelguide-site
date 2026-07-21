@@ -81,16 +81,4 @@ https://[seu-usuario].github.io/[nome-do-repositorio]
 
 ## 🎯 Pontos do Projeto
 
-Este projeto atende todos os 20 pontos solicitados:
 
-- ✅ URL pública do repositório GitHub (1 ponto)
-- ✅ Páginas funcionais: Início, Sobre Nós e Contato (3 pontos)
-- ✅ Barra de navegação (6 pontos)
-- ✅ Introdução na página inicial (1 ponto)
-- ✅ Elementos da página Sobre nós (2 pontos)
-- ✅ Formulário de e-mail (1 ponto)
-- ✅ Recomendação de praia com duas imagens (2 pontos)
-- ✅ Recomendação de templo com duas imagens (2 pontos)
-- ✅ Recomendação por país com duas imagens (2 pontos)
-
-**Total: 20/20 pontos** 🎉
